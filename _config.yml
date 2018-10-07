@@ -1,6 +1,6 @@
-title: Belkirk College of Engineering
-short_title: Belkirk
-description: Belkirk Demo Site for Forestry.io
+title: 7t3
+short_title: 7t3
+description: A Public Private Pinboard
 baseurl:
 permalink: "/:path/"
 defaults:
@@ -14,14 +14,8 @@ defaults:
     values:
       layout: post
 collections:
-  people:
-    output: true
-    permalink: "/about/:path/"
   posts:
-    output: true
-  projects:
-    output: true
-    permalink: "/projects/:path/"
+    output: false
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 jekyll-archives:
@@ -29,5 +23,4 @@ jekyll-archives:
   layout: "archive"
 gems:
   - jekyll-menus
-  - jekyll-feed
   - jekyll-archives
