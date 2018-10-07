@@ -14,5 +14,6 @@ fields:
   config:
     required: true
 pages:
+- _posts/john-riley-explains-a-vinnie-colaiuta-fill.md
 - _posts/j.md
 - _posts/john-riley-explains-a-vinnie-colaiuta-fill.md
