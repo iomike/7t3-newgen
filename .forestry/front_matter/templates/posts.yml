@@ -9,4 +9,5 @@ fields:
   hidden: false
   default: post
 pages:
+- _posts/j.md
 - _posts/john-riley-explains-a-vinnie-colaiuta-fill.md
