@@ -8,7 +8,8 @@ layout: landing-page
 {% endcomment %}
 
 {% for post in site.posts %}
-
+<div class="container pure-g">
+  <div class="pure-u-1">
       <div class="content content-narrow">
         <div class="list-layout">
           <h2><a href="{{ post.remote_url }}">{{ post.title }}</a></h2>
@@ -16,5 +17,7 @@ layout: landing-page
           <date>{{ post.date | date_to_string }}</date>
         </div>
       </div>
-
+    </div>
+  </div>
+</div>
 {% endfor %}
