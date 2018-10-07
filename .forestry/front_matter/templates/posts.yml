@@ -8,3 +8,13 @@ fields:
   type: text
   hidden: false
   default: post
+- type: text
+  label: Remote URL
+  name: remote_url
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: Tags
+pages:
+- _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
