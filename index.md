@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: landing-page
+layout: default
 ---
 {% comment %}
 	This layout is used to by posts.md to display all of documents in
