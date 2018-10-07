@@ -14,6 +14,7 @@ fields:
   description: URL you're linking
   config:
     required: true
+  default: http://google.com
 - name: tags
   label: Tags
   type: tag_list
@@ -23,8 +24,4 @@ fields:
   label: Publish Date
   type: datetime
   hidden: false
-  default: ''
-- type: text
-  name: ''
-  label: ''
   default: ''
