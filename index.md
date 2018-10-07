@@ -1,12 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
 layout: landing-page
-heading: Belkirk College
-menu:
-  navigation:
-    identifier: _index
-    weight: 1
 ---
 {% comment %}
 	This layout is used to by posts.md to display all of documents in
@@ -19,7 +13,7 @@ menu:
       <div class="content content-narrow">
         <div class="list-layout">
           <h2><a href="{{ post.remote_url }}">{{ post.title }}</a></h2>
-          <small>{{ post.remote_url }}</small>
+          <h4>{{ post.remote_url }}</h4>
           <date>{{ post.date | date_to_string }}</date>
         </div>
       </div>
