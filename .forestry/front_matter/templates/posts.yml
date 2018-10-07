@@ -8,6 +8,11 @@ fields:
   type: text
   hidden: false
   default: post
+- type: text
+  label: Remote URL
+  name: remote_url
+  config:
+    required: true
 pages:
 - _posts/j.md
 - _posts/john-riley-explains-a-vinnie-colaiuta-fill.md
