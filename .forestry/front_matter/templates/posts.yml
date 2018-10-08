@@ -24,6 +24,7 @@ fields:
     step: '1'
     required: true
 pages:
+- _posts/some-advice-from-jeff-bezos.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
 - _posts/2018-10-08-jekyll-archives.md
 - _posts/2018-10-07-bootstrap-4-list-group.md
