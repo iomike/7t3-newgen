@@ -16,14 +16,6 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-- type: datetime
-  label: UUID
-  name: uuid
-  config:
-    display_utc: true
-    required: true
-    time_format: ''
-    date_format: YYx
 pages:
 - _posts/2018-10-08-some-advice-from-jeff-bezos.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
