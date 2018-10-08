@@ -24,6 +24,6 @@ fields:
     step: '1'
     required: true
 pages:
-- _posts/jekyll-archives.md
+- _posts/2018-10-08-jekyll-archives.md
 - _posts/2018-10-07-bootstrap-4-list-group.md
 - _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
