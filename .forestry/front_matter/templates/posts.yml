@@ -17,4 +17,5 @@ fields:
   name: tags
   label: Tags
 pages:
+- _posts/2018-10-07-bootstrap-4-list-group.md
 - _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
