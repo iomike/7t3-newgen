@@ -22,8 +22,8 @@ fields:
   config:
     display_utc: true
     required: true
-    time_format: ZZ
-    date_format: x
+    time_format: h:mm:ss
+    date_format: yx
 pages:
 - _posts/2018-10-08-some-advice-from-jeff-bezos.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
