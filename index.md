@@ -23,7 +23,7 @@ layout: default
                                     </ul>
                                     {% endif %}
                                 </div>
-                                <div class="entry-date published">{{ post.date | date_to_string }}<</div>
+                                <div class="entry-date published">{{ post.date | date_to_string }}</div>
                                 <div class="clear"></div>
                             </div>
                         </div>
