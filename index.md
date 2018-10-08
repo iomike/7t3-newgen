@@ -8,16 +8,17 @@ layout: default
 {% endcomment %}
 
 {% for post in site.posts %}
-<div class="container pure-g">
-  <div class="pure-u-1">
-      <div class="content content-narrow">
-        <div class="list-layout">
-          <h2><a href="{{ post.remote_url }}">{{ post.title }}</a></h2>
-          <h4>{{ post.remote_url }}</h4>
-          <date>{{ post.date | date_to_string }}</date>
-        </div>
-      </div>
+<div class="list-group">
+  <a href="{{ post.remote_url }}" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ post.title }}</h5>
+      <small class="text-muted">{{ post.date | date_to_string }}</small>
     </div>
-  </div>
+    <p class="mb-1">{{ post.remote_url }}</p>
+{% if post.tags.size > 0 %}
+  Tag{% if post.tags.size > 1 %}s{% endif %}:
+  <small class="text-muted">{{ post.tags | sort | join: ", " }}</small>
+{% endif %}
+  </a>
 </div>
 {% endfor %}
