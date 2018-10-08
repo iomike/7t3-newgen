@@ -16,13 +16,6 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-- type: number
-  label: PostID
-  name: postid
-  description: Number of the post
-  config:
-    step: '1'
-    required: true
 - type: datetime
   label: UUID
   name: uuid
