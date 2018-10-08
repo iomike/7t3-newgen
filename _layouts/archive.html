@@ -8,11 +8,26 @@ layout: default
 
 <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
-<ul class="posts-list">
+
 {% for post in page.posts %}
-  <li>
-    <a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-		<div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  </li>
-{% endfor %}
-</ul>
+<article id="post-2" class="blog-item-holder">
+                        <div class="entry-content relative">
+                            <div class="content-1170 center-relative">
+                                <h2 class="entry-title">
+                                    <a href="{{ post.remote_url }}" target="_blank">{{ post.title }}</a>
+                                </h2>
+                               {% if post.tags.size > 0 %}
+  Tag{% if post.tags.size > 1 %}s{% endif %}: <div class="cat-links">
+                                    <ul>
+                                        <li>
+                                            {{ post.tags | sort | join: ", " }}
+                                        </li>
+                                    </ul>
+                                    {% endif %}
+                                </div>
+                                <div class="entry-date published">{{ post.date | date_to_string }}</div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
