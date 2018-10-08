@@ -23,6 +23,13 @@ fields:
   config:
     step: '1'
     required: true
+- type: datetime
+  label: UUID
+  name: uuid
+  config:
+    display_utc: true
+    required: true
+    time_format: jRs
 pages:
 - _posts/2018-10-08-some-advice-from-jeff-bezos.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
