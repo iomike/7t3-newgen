@@ -21,7 +21,8 @@ fields:
   name: postid
   description: Number of the post
   config:
-    step: '10'
+    step: '1'
+    required: true
 pages:
 - _posts/test.md
 - _posts/2018-10-07-bootstrap-4-list-group.md
