@@ -16,6 +16,12 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: number
+  label: PostID
+  name: postid
+  description: Number of the post
+  config:
+    step: '10'
 pages:
 - _posts/2018-10-07-bootstrap-4-list-group.md
 - _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
