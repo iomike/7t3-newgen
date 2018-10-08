@@ -13,6 +13,13 @@ fields:
   name: remote_url
   config:
     required: true
+- type: textarea
+  label: Notes
+  name: notes
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: tag_list
   name: tags
   label: Tags
