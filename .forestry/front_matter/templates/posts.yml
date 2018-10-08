@@ -22,7 +22,7 @@ fields:
   config:
     display_utc: true
     required: true
-    time_format: s
+    time_format: ZZ
     date_format: x
 pages:
 - _posts/2018-10-08-some-advice-from-jeff-bezos.md
