@@ -22,9 +22,9 @@ collections:
 # Archives
 jekyll-archives:
   enabled:
-    - categories
+    - tag
   layout: archive
-permalinks: /:category/
+permalinks: /:name/
 plugins:
   - jekyll-menus
   - jekyll-archives

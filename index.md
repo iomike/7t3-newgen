@@ -18,7 +18,7 @@ layout: default
   Tag{% if post.tags.size > 1 %}s{% endif %}: <div class="cat-links">
                                     <ul>
                                         <li>
-                                            {{ post.tags | sort | join: ", " }}
+                                            <a href="{ tag.url | pretty }}">{{ post.tags | sort | join: ", " }}</a>
                                         </li>
                                     </ul>
                                     {% endif %}
