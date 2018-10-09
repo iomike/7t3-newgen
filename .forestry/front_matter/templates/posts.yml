@@ -23,6 +23,11 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: text
+  name: date
+  label: Date
+  config:
+    required: true
 pages:
 - _posts/2018-10-08-jekyll-archives.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
