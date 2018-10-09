@@ -27,6 +27,7 @@ fields:
   name: date
   label: Date
 pages:
+- _posts/ttt.md
 - _posts/2018-10-08-jekyll-archives.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
 - _posts/2018-10-08-some-advice-from-jeff-bezos.md
