@@ -13,6 +13,7 @@ layout: default
                             <div class="content-1170 center-relative">
                                 <h2 class="entry-title">
                                     <a href="{{ post.remote_url }}" target="_blank">{{ post.title }}</a>
+                                    {{ post.url | strip_html }}
                                 </h2>
                                {% if post.tags.size > 0 %}
   Tag{% if post.tags.size > 1 %}s{% endif %}: <div class="cat-links">

@@ -3,7 +3,7 @@ title: 7t3
 short_title: 7t3
 description: A Public Private Pinboard
 baseurl:
-permalink: "/:path/"
+permalink: ":year:month:day:hour:minute:second"
 defaults:
   - scope:
       path: ""
