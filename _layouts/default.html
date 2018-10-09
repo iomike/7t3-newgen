@@ -4,10 +4,15 @@
 {% endcomment %}
 
 {% include head.html %}
-{% include sidebar.html %}
+
+
 
       <!-- Home Content -->
         <div id="content" class="site-content">
+                <h1 class="site-title">{{ site.name }}</h1>
+                <p class="site-description">
+                        {{ site.description }}
+                </p>
             <div id="blog-wrapper">
                 <div class="blog-holder center-relative">
 {% comment %}
