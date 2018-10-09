@@ -24,7 +24,7 @@ jekyll-archives:
   enabled:
     - tag
   layout: archive
-permalinks: /:name/
+permalinks: /tags/:name/
 plugins:
   - jekyll-menus
   - jekyll-archives
