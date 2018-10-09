@@ -26,6 +26,8 @@ fields:
 - type: text
   name: date
   label: Date
+  config:
+    required: true
 pages:
 - _posts/ttt.md
 - _posts/2018-10-08-jekyll-archives.md
