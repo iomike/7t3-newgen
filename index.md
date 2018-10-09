@@ -8,7 +8,7 @@ layout: default
 {% endcomment %}
 
 {% for post in site.posts %}
-<article id="{{ post.url | strip_html | replace:'/',' ' }}" class="blog-item-holder">
+<article id="{{ post.url | strip_html | replace:'/','' }}" class="blog-item-holder">
                         <div class="entry-content relative">
                             <div class="content-1170 center-relative">
                                 <h2 class="entry-title">
