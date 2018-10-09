@@ -19,9 +19,13 @@ collections:
     output: false
 # tag_page_layout: tag_page
 # tag_page_dir: tag
+# Archives
 jekyll-archives:
-  enabled: all
-  layout: "archive"
+  enabled:
+    - categories
+  layout: archive
+permalinks: /:category/
 gems:
   - jekyll-menus
   - jekyll-archives
+  - jekyll-paginate
