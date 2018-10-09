@@ -8,12 +8,11 @@ layout: default
 {% endcomment %}
 
 {% for post in site.posts %}
-<article id="post-2" class="blog-item-holder">
+<article id="{{ post.url | strip_html | replace:'/',' ' }}" class="blog-item-holder">
                         <div class="entry-content relative">
                             <div class="content-1170 center-relative">
                                 <h2 class="entry-title">
                                     <a href="{{ post.remote_url }}" target="_blank">{{ post.title }}</a>
-                                    {{ post.url | strip_html | replace:'/',' ' }}
                                 </h2>
                                {% if post.tags.size > 0 %}
   Tag{% if post.tags.size > 1 %}s{% endif %}: <div class="cat-links">
