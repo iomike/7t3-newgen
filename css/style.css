@@ -229,9 +229,7 @@ input, textarea, select
 
 .site-title
 {
-    font-family: 'Montserrat', sans-serif, Arial;
-    color: #fff;
-    font-size: 30px;
+    
     line-height: 38px;
     font-weight: 700;
     padding: 20px 0;
@@ -241,7 +239,7 @@ input, textarea, select
 {
     font-family: 'Montserrat', sans-serif, Arial;
     color: #848484;
-    font-size: 14px;
+    
     line-height: 23px;
     max-width: 200px;
 }
