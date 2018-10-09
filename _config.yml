@@ -25,7 +25,6 @@ jekyll-archives:
     - categories
   layout: archive
 permalinks: /:category/
-gems:
+plugins:
   - jekyll-menus
   - jekyll-archives
-  - jekyll-paginate
