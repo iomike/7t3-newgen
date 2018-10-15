@@ -34,6 +34,7 @@ fields:
     - Cooking
     - News
     - Readme.txt
+    required: true
   label: Category
 - type: tag_list
   name: tags
