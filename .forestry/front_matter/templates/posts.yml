@@ -20,6 +20,21 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    options:
+    - Music
+    - Drumming
+    - Jekyll
+    - Leadership
+    - Tech
+    - Cooking
+    - News
+    - Readme.txt
+  label: Category
 - type: tag_list
   name: tags
   label: Tags
