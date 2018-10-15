@@ -37,7 +37,7 @@ fields:
     - Tech
     required: true
   label: Category
-  default: Music
+  default: _nothing
 - type: tag_list
   name: tags
   label: Tags
