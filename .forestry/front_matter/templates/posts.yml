@@ -33,6 +33,8 @@ fields:
     - Bootstrap
     - Jekyll
     - Leadership
+    - Drums/Drumming
+    - Tech
     required: true
   label: Category
   default: Music
