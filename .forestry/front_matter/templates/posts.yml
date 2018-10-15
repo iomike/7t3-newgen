@@ -47,7 +47,6 @@ fields:
   config:
     required: true
 pages:
-- _posts/hhh.md
 - _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
 - _posts/2018-10-08-jekyll-archives.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
