@@ -26,16 +26,16 @@ fields:
     source:
       type: simple
     options:
+    - _nothing
     - Music
-    - Drumming
+    - Readme.txt
+    - Cooking
+    - Bootstrap
     - Jekyll
     - Leadership
-    - Tech
-    - Cooking
-    - News
-    - Readme.txt
     required: true
   label: Category
+  default: Music
 - type: tag_list
   name: tags
   label: Tags
