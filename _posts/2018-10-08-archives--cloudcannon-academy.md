@@ -4,7 +4,7 @@ layout: post
 date: 2018-10-08 13:35:46 +0000
 remote_url: https://learn.cloudcannon.com/jekyll/jekyll-archives/
 tags:
-- Jekyll
+- Learning
 postid: 4
 notes: ''
 category: Jekyll
