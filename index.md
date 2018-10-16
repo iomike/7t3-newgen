@@ -27,7 +27,7 @@ layout: default
                     <div class="cat-links"><ul>
   {% for tag in post.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <li><a href="/{{ tag_name | slugify: 'pretty' }}/">{{ post.tags | sort | join: ", " }}</a></li>
+    <li><a href="/tag/{{ tag_name | slugify: 'pretty' }}/">{{ post.tags | sort | join: ", " }}</a></li>
   {% endfor %}</ul>
 </div>
 
