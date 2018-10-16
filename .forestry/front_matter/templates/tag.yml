@@ -1,0 +1,15 @@
+---
+label: tag
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: tag
+  label: Tag
+  config:
+    required: true
