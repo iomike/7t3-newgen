@@ -14,5 +14,6 @@ fields:
   config:
     required: true
 pages:
+- tag/learning.md
 - tag/signal-v-noise.md
 - tag/docs.md
