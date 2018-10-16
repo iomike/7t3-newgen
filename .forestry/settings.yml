@@ -7,11 +7,6 @@ sections:
 - type: heading
   label: Content
 - type: jekyll-posts
-  label: Posts
-  create: all
-  templates:
-  - posts
-- type: jekyll-posts
   label: Tag
   create: all
   templates:
