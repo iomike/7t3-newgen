@@ -30,7 +30,7 @@ layout: default
                     <span>[
   {% for tag in post.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    <li><a href="{{ tag_name | slugify: 'pretty' }}">{{ post.tags | sort | join: ", " }}</a></li>
   {% endfor %}
 ]</span>
                     {% endfor %}
