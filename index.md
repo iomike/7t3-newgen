@@ -28,9 +28,9 @@ layout: default
                         </div>
                     </article>
                     <span>[
-  {% for tag in page.tags %}
+  {% for tag in post.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    <a href="{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}
 ]</span>
                     {% endfor %}
