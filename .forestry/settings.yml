@@ -17,8 +17,7 @@ sections:
   templates:
   - landing-page
   - default
-  - tagpage
-  - test
+  - tag
 - type: directory
   path: _people
   label: People
