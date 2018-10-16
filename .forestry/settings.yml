@@ -12,7 +12,7 @@ sections:
   templates:
   - posts
 - type: jekyll-posts
-  label: Tags
+  label: Tag
   create: all
   templates:
   - tagpage
