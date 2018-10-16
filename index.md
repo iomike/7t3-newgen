@@ -15,17 +15,21 @@ layout: default
                                     <a href="{{ post.remote_url }}" target="_blank">{{ post.title }}</a>
                                 </h2>
                                {% if post.tags.size > 0 %}
-  Tag{% if post.tags.size > 1 %}s{% endif %}: <div class="cat-links">
+
+
+  Tag{% if post.tags.size > 1 %}s{% endif %}: 
+  <div class="cat-links">
                                     <ul>
                                         <li>
-                                            <a href="{{ post.tag.url | pretty }}">{{ post.tags | sort | join: ", " }}</a>
+                                            <a href="{{ tag_name | pretty }}">{{ post.tags | sort | join: ", " }}</a>
                                         </li>
                                     </ul>
-                                    {% endif %}
-                                </div>
+                                  
+                                </div>  
+                                {% endif %}
                                 <div class="entry-date published">{{ post.date | date_to_string }}</div>
                                 <div class="clear"></div>
                             </div>
                         </div>
                     </article>
-                    {% endfor %}
+                   
