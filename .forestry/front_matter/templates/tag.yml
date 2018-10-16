@@ -13,6 +13,14 @@ fields:
   label: Tag
   config:
     required: true
+- type: text
+  name: tagfield
+  label: layout
+  default: tagpage
+- type: text
+  name: layout
+  label: layout
+  hidden: true
 pages:
 - tag/learning.md
 - tag/signal-v-noise.md
