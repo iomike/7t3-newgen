@@ -20,6 +20,24 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    options:
+    - _nothing
+    - Music
+    - Readme.txt
+    - Cooking
+    - Bootstrap
+    - Jekyll
+    - Leadership
+    - Drums/Drumming
+    - Tech
+    required: true
+  label: Category
+  default: _nothing
 - type: tag_list
   name: tags
   label: Tags
@@ -29,8 +47,8 @@ fields:
   config:
     required: true
 pages:
+- _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
 - _posts/2018-10-08-jekyll-archives.md
 - _posts/2018-10-08-archives--cloudcannon-academy.md
 - _posts/2018-10-08-some-advice-from-jeff-bezos.md
-- _posts/2018-10-07-john-riley-explains-a-vinnie-colaiuta-fill.md
 - _posts/2018-10-07-bootstrap-4-list-group.md

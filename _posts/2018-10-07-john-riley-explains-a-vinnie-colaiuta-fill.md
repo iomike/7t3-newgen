@@ -6,6 +6,8 @@ remote_url: https://www.youtube.com/watch?v=G6YMO7XhDpQ
 tags:
 - YouTube
 postid: 1
+notes: ''
+category: Drums/Drumming
 
 ---
 w
