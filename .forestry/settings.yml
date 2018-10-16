@@ -18,6 +18,7 @@ sections:
   - landing-page
   - default
   - tagpage
+  - test
 - type: directory
   path: _people
   label: People
