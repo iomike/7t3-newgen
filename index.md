@@ -14,6 +14,7 @@ layout: default
                                 <h2 class="entry-title">
                                     <a href="{{ post.remote_url }}" target="_blank">{{ post.title }}</a>
                                 </h2>
+                                {% comment %}
                                {% if post.tags.size > 0 %}
   Tag{% if post.tags.size > 1 %}{% endif %}: <div class="cat-links">
                                     <ul>
@@ -22,15 +23,18 @@ layout: default
                                         </li>
                                     </ul>
                                 </div>{% endif %}
-                                <div class="entry-date published">{{ post.date | date_to_string }}</div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                    </article>
+                                {% endcomment %}
                     <div class="cat-links"><ul>[
   {% for tag in post.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     <li><a href="/{{ tag_name | slugify: 'pretty' }}/">{{ post.tags | sort | join: ", " }}</a></li>
   {% endfor %}</ul>
 ]</div>
+
+                                <div class="entry-date published">{{ post.date | date_to_string }}</div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </article>
+
                     {% endfor %}
