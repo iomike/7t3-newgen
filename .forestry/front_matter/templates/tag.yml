@@ -13,3 +13,5 @@ fields:
   label: Tag
   config:
     required: true
+pages:
+- tag/docs.md
