@@ -21,6 +21,7 @@ fields:
   name: layout
   label: layout
   hidden: true
+  default: tagpage
 pages:
 - tag/learning.md
 - tag/signal-v-noise.md
