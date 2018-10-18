@@ -46,3 +46,5 @@ fields:
   label: Date
   config:
     required: true
+pages:
+- _posts/with-300m-in-new-funding-devoted-health-launches-its-medicare-advantage-plan-in-florida.md
