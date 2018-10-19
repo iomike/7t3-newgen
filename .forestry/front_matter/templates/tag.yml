@@ -17,6 +17,8 @@ fields:
   name: layout
   label: layout
   default: tagpage
+  config:
+    required: true
 pages:
 - tag/healthcare.md
 - tag/learning.md
