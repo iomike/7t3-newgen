@@ -14,7 +14,7 @@ fields:
   config:
     required: true
 - type: text
-  name: tagfield
+  name: layout
   label: layout
   default: tagpage
 pages:
