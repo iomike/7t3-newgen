@@ -24,6 +24,7 @@ fields:
   name: layout
   default: ''
 pages:
+- tag/drums-drumming.md
 - tag/music.md
 - tag/youtube.md
 - tag/plug-ins.md
