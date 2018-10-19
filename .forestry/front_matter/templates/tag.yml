@@ -13,12 +13,16 @@ fields:
   label: Tag
   config:
     required: true
-- type: text
-  name: layout
-  label: layout
-  default: tagpage
+- type: select
   config:
+    source:
+      type: simple
     required: true
+    options:
+    - tagpage
+  label: Layout
+  name: layout
+  default: ''
 pages:
 - tag/healthcare.md
 - tag/learning.md
