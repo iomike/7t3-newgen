@@ -24,6 +24,7 @@ fields:
   name: layout
   default: ''
 pages:
+- tag/youtube.md
 - tag/plug-ins.md
 - tag/healthcare.md
 - tag/learning.md
