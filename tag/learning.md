@@ -1,7 +1,8 @@
 ---
 title: Learning
-date: 2018-10-15 21:22:37 -0400
+date: 2018-10-16 01:22:37 +0000
 tag: Learning
 tagfield: tagpage
+layout: tagpage
 
 ---
