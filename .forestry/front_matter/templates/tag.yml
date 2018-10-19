@@ -18,6 +18,7 @@ fields:
   label: layout
   default: tagpage
 pages:
+- tag/healthcare.md
 - tag/learning.md
 - tag/signal-v-noise.md
 - tag/docs.md
