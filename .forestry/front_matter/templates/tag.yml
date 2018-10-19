@@ -24,6 +24,7 @@ fields:
   name: layout
   default: ''
 pages:
+- tag/plug-ins.md
 - tag/healthcare.md
 - tag/learning.md
 - tag/signal-v-noise.md
