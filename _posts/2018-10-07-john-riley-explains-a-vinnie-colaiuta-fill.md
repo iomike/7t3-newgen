@@ -8,7 +8,7 @@ tags:
 - Music
 postid: 1
 notes: ''
-category: Drums/Drumming
+category: Drums
 
 ---
 w
