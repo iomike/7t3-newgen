@@ -23,8 +23,11 @@ collections:
 jekyll-archives:
   enabled:
     - tag
+    - categories
   layout: archive
-permalinks: /tags/:name/
+permalinks:
+  tag: '/tag/:name/'
+  category: '/:name/'
 plugins:
   - jekyll-menus
   - jekyll-archives
